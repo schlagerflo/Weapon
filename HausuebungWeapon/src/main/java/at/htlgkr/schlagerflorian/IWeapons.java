@@ -1,5 +1,7 @@
 package at.htlgkr.schlagerflorian;
 
+import java.util.List;
+
 public interface IWeapons {
     List<Weapon> findWhereItemIDStartsWith(String searchString);
     Weapon findWithItemID(String itemID);
